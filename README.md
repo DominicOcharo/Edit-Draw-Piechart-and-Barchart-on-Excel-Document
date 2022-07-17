@@ -34,7 +34,7 @@ class DocumentEdit:
         wb.save(self.new)
 
 
-name = input("> ")
-new_name = input("> ")
+name = input("input the name of the excel document as (name.xlsx): ")
+new_name = input("input the name of the updated excel document as (name.xlsx): ")
 check = DocumentEdit(name, new_name)
 check.edit_excel()
